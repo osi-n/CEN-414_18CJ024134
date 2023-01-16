@@ -1,0 +1,57 @@
+.dow h3 {
+    display: inline;
+    padding: 2px;
+  }
+  
+  .calendar {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 1rem;
+  }
+  
+  .month {
+    max-width: 23rem;
+    background-color: whitesmoke;
+    margin: 0 0.4rem;
+    border-radius: 0.6rem;
+  }
+  
+  .month-heading {
+    background-color: lightcoral;
+  }
+  
+  .month-title {
+    text-align: center;
+    padding: 0.8rem;
+    margin: 0;
+  }
+  
+  .month-grid {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+  
+  .month-col {
+    column-span: 1;
+    text-align: center;
+    margin: 0.8rem 0;
+  }
+  
+  .birthday {
+    background-color: gold;
+  }
+  
+  .birthday-mum {
+    background-color: pink;
+  
+  }
+  
+  .birthday-dad {
+    background-color: silver;
+  
+  }
+
+  .public-holiday {
+    background-color: brown;
+
+  }
